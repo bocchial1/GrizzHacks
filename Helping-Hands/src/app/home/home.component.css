@@ -28,3 +28,6 @@
 .supply-squad {
   background-color: #faebd7; /* Light antique white background for distinction */
 }
+.intro {
+  display: flex;
+}
