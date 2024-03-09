@@ -6,13 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  username: string = '';
-  password: string = '';
+  // constructor(public auth: AuthService) {}
 
-  onSubmit() {
-    // Add your login logic here
-    // For simplicity, we'll just log the credentials to the console
-    console.log('Username:', this.username);
-    console.log('Password:', this.password);
-  }
+  // login(): void {
+  //   this.auth.loginWithRedirect();
+  // }
 }
