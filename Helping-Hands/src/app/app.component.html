@@ -1,4 +1,19 @@
 <nav>
-  <a href="#">Home</a>
-  <a href="#/login">Login</a>
+  <div class="header-container">
+    <h1>Helping Hands</h1>
+  </div>
+  <div class="Menu Container">
+    <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" >Home</a>
+    <a routerLink="/Login" routerLinkActive="active" ariaCurrentWhenActive="page">Login</a>
+  </div>
+
 </nav>
+<main>
+
+  <router-outlet>
+
+  </router-outlet>
+</main>
+<footer>
+  <p>© 2024 Helping Hands </p>
+</footer>

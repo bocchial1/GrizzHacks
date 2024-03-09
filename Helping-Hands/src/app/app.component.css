@@ -5,14 +5,31 @@ body {
 }
 
 nav {
-    background-color: #3498db;
-    color: white;
+    background-color: #0062ff;
     padding: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
+    
 }
+
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+}
+
+footer {
+	margin: 0;
+    padding: 0;
+    width: 100vw;
+  	height: 20vh;
+    text-align: center;
+    position: relative;
 }
