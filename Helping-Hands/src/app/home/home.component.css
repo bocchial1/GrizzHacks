@@ -1,16 +1,30 @@
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
-  }
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
 
 .home {
-    background-color: #ecf0f1;
-    margin: 10px 0;
+  background-color: #ecf0f1;
+  margin: 10px 0;
 }
 
 .login {
-    background-color: #bdc3c7;
-    padding: 20px;
-    margin: 10px 0;
+  background-color: #bdc3c7;
+  padding: 20px;
+  margin: 10px 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+.panel {
+  flex: 1; /* Makes each panel take up equal width */
+  padding: 20px; /* Adds some spacing inside the panels */
+}
+.pack-pals {
+  background-color: #f0f8ff; /* Light blue background for distinction */
+}
+.supply-squad {
+  background-color: #faebd7; /* Light antique white background for distinction */
 }
